@@ -1,0 +1,52 @@
+from flask_admin.contrib.sqla import ModelView
+
+
+class FeatureRequestModelView(ModelView):
+    form_choices = {
+        "client": [
+            ("Client A", "Client A"),
+            ("Client B", "Client B"),
+            ("Client C", "Client C"),
+            ("Client D", "Client D"),
+            ("Client E", "Client E"),
+            ("Client F", "Client F"),
+            ("Client G", "Client G"),
+            ("Client H", "Client H"),
+            ("Client I", "Client I"),
+            ("Client J", "Client J"),
+            ("Client K", "Client K"),
+            ("Client L", "Client L"),
+            ("Client M", "Client M"),
+            ("Client N", "Client N"),
+            ("Client O", "Client O"),
+            ("Client P", "Client P"),
+            ("Client Q", "Client Q"),
+            ("Client R", "Client R"),
+            ("Client S", "Client S"),
+            ("Client T", "Client T"),
+            ("Client U", "Client U"),
+            ("Client V", "Client V"),
+            ("Client W", "Client W"),
+            ("Client X", "Client X"),
+            ("Client Y", "Client Y"),
+            ("Client Z", "Client Z"),
+        ],
+        "client_priority": [
+            ("1", 1),
+            ("2", 2),
+            ("3", 3),
+            ("4", 4),
+            ("5", 5),
+            ("6", 6),
+            ("7", 7),
+            ("8", 8),
+            ("9", 9),
+            ("10", 10),
+        ],
+        "product_area": [
+            ("Policies", "Policies"),
+            ("Billing", "Billing"),
+            ("Claims", "Claims"),
+            ("Reports", "Reports"),
+        ],
+    }
