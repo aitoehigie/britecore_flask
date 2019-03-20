@@ -14,18 +14,12 @@ Britecore Features Application
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url_for('index') }}">Britecore Feature Requests</a>
+                <a class="navbar-brand" href="{{ url_for('index') }}">Britecore Feature Requests Application</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <form action="/search" method="post" class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" name="search" id="search" class="form-control" placeholder="Name...">
-                    </div>
-                    <button type="submit" class="btn btn-default">Search</button>
-                </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/create_feature">Create New Feature</a></li>
-                    <li><a href="/">View Features</a></li>
+                    <li><a href="/create_feature"class="btn btn-success">Create New Feature</a></li>
+                    <li><a href="/" class="btn btn-link">View Features</a></li>
                 </ul>
             </div>
         </div>
