@@ -11,19 +11,9 @@ Feature Request is a simple web application for making records of feature reques
 * Front-End: Bootstrap4
 * JavaScript: KnockoutJS
 * Continuous Integration: Travis-CI
-* Host : vultr
-* Test : Unittest
+* Host : Heroku
+* Test : Pytest
 
-## Folder Structure
-    .
-    ├── app                     # assets of the projects (Javascript or CSS)
-    │   ├── templates           # application templates
-    │   ├── tests               # Integration tests
-    │   ├── models.py           # FeatureModel define here
-    │   └── views.py            # We can call it our routers
-    ├── .travis.yml             # Travis-CI settings
-    ├── app.py                  # Starting our dev server
-    └── config.py               # Our configuration file
 
 ### Prerequisites
 
@@ -34,13 +24,15 @@ Existing Python 3.6 installation
 First clone the repository
 
 ```
-git clone https://github.com/ammoti/BriteCore.FeatureRequests.git
+git clone git@github.com:aitoehigie/britecore-flask.git
 ```
 
-After that install the requirements via pip
+After that install the requirements via pip and pipenv
 
 ```
-pip install -r requirements.txt
+pipenv --python 3.6
+pipenv shell
+pipenv run pip install -r requirements.txt
 ```
 
 If everything goes smooth all you have to do run below command in project root;
@@ -62,13 +54,6 @@ python -m unittest discover
 You can see the results whether test OK or FAIL.
 
 ## Deployment
-
-For Continuous Integration I have used [travis-ci](https://travis-ci.org/ammoti/FeatureRequest) and for the host I use [Heroku](https://heroku.com/) (free plan). If the commit passing all automated test on travis it's directly deploying on Heroku platform
-
-## Live 
-
-You can also experience this project in live at https://britecore-featurerequests.herokuapp.com/ (sometimes heroku will shutdown the server please inform me at this moments).
-
 
 ## Author
 
