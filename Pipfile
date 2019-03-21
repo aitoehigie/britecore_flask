@@ -16,6 +16,7 @@ flask-wtf = "*"
 flask-table = "*"
 flask-script = "*"
 foreman = "*"
+pytest = "*"
 
 [dev-packages]
 
