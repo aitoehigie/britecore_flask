@@ -17,6 +17,7 @@ flask-table = "*"
 flask-script = "*"
 foreman = "*"
 pytest = "*"
+cryptography = "*"
 
 [dev-packages]
 
