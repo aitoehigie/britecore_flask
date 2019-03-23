@@ -1,5 +1,6 @@
 from app import db
 
+
 class FeatureRequest(db.Model):
     __tablename__ = "feature_request"
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)

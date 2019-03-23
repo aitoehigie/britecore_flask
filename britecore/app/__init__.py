@@ -15,4 +15,3 @@ migrate = Migrate(app, db)
 from app import views, forms, models
 from .models import FeatureRequest
 from .custom_model_view import FeatureRequestModelView
-
