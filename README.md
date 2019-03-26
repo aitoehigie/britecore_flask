@@ -4,12 +4,12 @@
 This document details the process involved in implementing a solution to task given for the Britecore Software Engineer (Implementation) role.
 
 The sections of the document are as below:
-1.) About the project.
-2.) Details of the tech stack.
-3.) Setup and installation instructions.
-4.) Deployment
-5.) Author
-6.) License
+* About the project.
+* Details of the tech stack.
+* Setup and installation instructions.
+* Deployment
+* Author
+* License
 
 
 ### About The Project
