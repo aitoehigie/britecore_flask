@@ -1,6 +1,6 @@
 
 from flask import Flask
-from config import config
+from .config import config
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate

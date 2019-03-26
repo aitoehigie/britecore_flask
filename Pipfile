@@ -18,6 +18,7 @@ flask-script = "*"
 foreman = "*"
 pytest = "*"
 cryptography = "*"
+coverage = "*"
 
 [dev-packages]
 
