@@ -7,10 +7,9 @@ The sections of the document are as below:
 1.) About the project.
 2.) Details of the tech stack.
 3.) Setup and installation instructions.
-4.) Running tests.
-5.) Deployment
-6.) Author
-7.) License
+4.) Deployment
+5.) Author
+6.) License
 
 
 ### About The Project
@@ -54,15 +53,6 @@ $ docker-compose up -d
 The commands above will install all the dev dependencies in the "requirements.txt", configure the Python flask API and setup the sqlite database.
 Navigate to <http://localhost:8000> to start interacting with the endpoints.
 
-
-## Running the tests
-
-In this project I use the unittest for automated testing and you can see in tests folder. For the running; just run this command ;
-
-```
-python -m unittest discover
-```
-You can see the results whether test OK or FAIL.
 
 ## Deployment
 A sample of the project is presently running on a digitialocean droplet at: 
