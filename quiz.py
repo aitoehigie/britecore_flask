@@ -1,10 +1,9 @@
 from cryptography.fernet import Fernet
 
-key = "TluxwB3fV_GWuLkR1_BzGs1Zk90TYAuhNMZP_0q4WyM="
+key = 'TluxwB3fV_GWuLkR1_BzGs1Zk90TYAuhNMZP_0q4WyM='
 
 # Oh no! The code is going over the edge! What are you going to do?
-message = b"gAAAAABclSebC3fJnYmg5Qcn1Z7yFkWpwiPnucrc4AFstA-NiyJ-3-MAbfqW8lxmkm7yhgnIhKdT28sZPP-vVfN0jctqm26UmeVrVdyz-TEK4__-O2_VOT-j5wMXdcGNnVXDu9afph-MwYuucFq3rBp1bRvcG9dj8Sc-CGDJJ6OVwIyxJQiXBWS7rf12a7qXYHHze5c2Tp__"
-
+message = b'gAAAAABcmZNjB1CqmvCWcO8ByvVTKas3rKh5Py67Al5tOma1TtHeQBQJi55SmpN86uNXNFX7_clMNLWCB5HzqkcOkkz3V7KzxeFo7q4ZNIGsa4tb82l0sVTcS2zCW7-Rk7kcnkLl_Jsw2F98JMpnnLa4ZrlZqPoteBSgjBr7vmk4Z5GXIpAqPU5TBk2K51m2RE47HogruLsO'
 
 def main():
     f = Fernet(key)
