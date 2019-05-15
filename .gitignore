@@ -1,2 +1,24 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+
+# Virtualenv related
+bin/
+include/
+pip-selfcheck.json
+
+#Byte-compiled / optimized / DLL files
+__pycache__/
 *.pyc
+*.py[cod]
+*$py.class
+
+
+# Flask
+instance/
+*webassets-cache
 
